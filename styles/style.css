@@ -27,6 +27,9 @@
   height: 60px;
 
 }
+.menu-icon{
+  display: none;
+}
 .banner-title{
   font-size: 1.8rem;
   font-weight: bold;
@@ -54,6 +57,7 @@
 }
 #fourth{
   color: rgba(93, 88, 239, 1);
+  margin-right: 184px;
 }
 .nav-btn{
   border: 0;
@@ -129,15 +133,19 @@
  .ban-img{
   margin: 0 auto;
  }
- .menu-icon::before{
+ .menu-icon{
   display: inline-block;
+  margin: 0;
 
  }
+
  .banner-content{
- 
+
  display: flex;
  justify-content: space-between;
-  border: 1px solid #FEA301;
+ margin: 10px 0px;
+ border: 1px solid #FEA301;
+ max-width: 100%;
   padding: 10px ;
  }
 
